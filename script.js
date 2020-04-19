@@ -35,8 +35,14 @@ dreamsForm.onsubmit = function(event) {
   else{
     var res = document.getElementById('res');
     res.innerText = ''
-    var res = yp2yl(dreamInput.value)
-    render(res)
+    try{
+      var res = yp2yl(dreamInput.value)
+      render(res)
+    }
+    catch(e) {
+      alert("Something went wrong");
+      // expected output: "Parameter is not a number!"
+    }
   }
   // reset form
   dreamInput.value = "";
