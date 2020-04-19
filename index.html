@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="Zh-CN">
+  <head>
+    <title>Jyutping to Yale</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Transform Jyutping into Yale Romanization</h1>
+      <div class="wrapper">
+        <form>
+          <!--
+          <div style = "padding:8px">
+            <label><input name="option" type="radio" value="middle" checked>中古語音</label>
+            <label><input name="option" type="radio" value="dialect">各地方音</label>            
+          </div>
+          -->
+          <textarea class = "search" name="dream" aria-labelledby="submit-dream" rows="4" cols="50">Syu1 jap6 Jyut6 ping3</textarea>
+          <div style = "text-align:right">
+             <button type="submit" id="submit-dream">Transform</button>
+          </div>
+        </form> 
+    </div>
+    <h3>Result</h3>
+    <div id="canvas">
+      <p id="res"></p>
+    </div>
+  </body>
+</html>

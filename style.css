@@ -1,0 +1,93 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #373fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+  line-height:15px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border: 1px solid teal;
+  border-radius: 3px;
+}
+
+.search {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  padding:6px;
+  width:96px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  color:#4D4D4D;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+#app{
+  max-width:600px;
+  text-align:center;
+  padding-top:24px;
+  padding-bottom:24px;
+  margin-left:auto;
+  margin-right:auto
+}
+#canvas{
+  text-align:left;
+  padding-left:16px;
+  padding-right:16px;
+  max-width: 340px;
+  min-height:120px;
+  margin:auto;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
